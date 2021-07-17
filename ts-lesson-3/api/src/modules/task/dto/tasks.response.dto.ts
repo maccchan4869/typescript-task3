@@ -3,5 +3,5 @@ import { Task } from 'src/database/entities/task.entity'
 
 export class TasksResponseDto {
   @ApiProperty()
-  task: Task
+  tasks: Task[]
 }
